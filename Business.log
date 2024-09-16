@@ -1,0 +1,200 @@
+2024-09-16T16:48:59.335+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : Starting Application using Java 17.0.7 with PID 4508 (D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database\target\classes started by HP in D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database)
+2024-09-16T16:48:59.341+05:30 DEBUG 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-16T16:48:59.347+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T16:49:00.410+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T16:49:00.500+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2024-09-16T16:49:01.385+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-09-16T16:49:01.451+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T16:49:01.452+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-09-16T16:49:01.614+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T16:49:01.617+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2172 ms
+2024-09-16T16:49:01.705+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T16:49:02.283+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=PRIYANKAIT
+2024-09-16T16:49:02.287+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T16:49:02.306+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-09-16T16:49:02.628+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T16:49:02.759+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16T16:49:02.820+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T16:49:03.315+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T16:49:03.816+05:30  WARN 4508 --- [13_Data_Jpa_h2_Database] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): in.priyankait.entity.BookPk
+2024-09-16T16:49:03.818+05:30  WARN 4508 --- [13_Data_Jpa_h2_Database] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): in.priyankait.entity.BookPk
+2024-09-16T16:49:04.701+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T16:49:04.760+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T16:49:05.127+05:30  WARN 4508 --- [13_Data_Jpa_h2_Database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T16:49:05.635+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-09-16T16:49:05.650+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : Started Application in 6.971 seconds (process running for 8.385)
+2024-09-16T16:49:05.655+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : ioc container is created
+2024-09-16T16:49:05.657+05:30 DEBUG 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.service.BookService        : start of import details...
+2024-09-16T16:49:05.815+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.service.BookService        : end of import ...
+2024-09-16T16:49:05.815+05:30 DEBUG 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : end of main(-) method
+2024-09-16T16:49:05.815+05:30 TRACE 4508 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : App is about to complete..
+2024-09-16T16:52:52.402+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16T16:52:52.429+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T16:52:52.436+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T16:52:52.442+05:30  INFO 4508 --- [13_Data_Jpa_h2_Database] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+Starting Application using Java 17.0.7 with PID 9296 (D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database\target\classes started by HP in D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database)-[INFO]-2024-09-16 16:53:01,540-org.springframework.boot.StartupInfoLogger-main-
+Running with Spring Boot v3.3.0, Spring v6.1.8-[DEBUG]-2024-09-16 16:53:01,545-org.springframework.boot.StartupInfoLogger-main-
+No active profile set, falling back to 1 default profile: "default"-[INFO]-2024-09-16 16:53:01,548-org.springframework.boot.SpringApplication-main-
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.-[INFO]-2024-09-16 16:53:02,870-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.-[INFO]-2024-09-16 16:53:02,993-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Tomcat initialized with port 9090 (http)-[INFO]-2024-09-16 16:53:03,893-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Starting service [Tomcat]-[INFO]-2024-09-16 16:53:03,932-org.apache.juli.logging.DirectJDKLog-main-
+Starting Servlet engine: [Apache Tomcat/10.1.24]-[INFO]-2024-09-16 16:53:03,933-org.apache.juli.logging.DirectJDKLog-main-
+Initializing Spring embedded WebApplicationContext-[INFO]-2024-09-16 16:53:04,052-org.apache.juli.logging.DirectJDKLog-main-
+Root WebApplicationContext: initialization completed in 2413 ms-[INFO]-2024-09-16 16:53:04,053-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-main-
+HikariPool-1 - Starting...-[INFO]-2024-09-16 16:53:04,100-com.zaxxer.hikari.HikariDataSource-main-
+HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=PRIYANKAIT-[INFO]-2024-09-16 16:53:04,443-com.zaxxer.hikari.pool.HikariPool-main-
+HikariPool-1 - Start completed.-[INFO]-2024-09-16 16:53:04,446-com.zaxxer.hikari.HikariDataSource-main-
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'-[INFO]-2024-09-16 16:53:04,467-org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration-main-
+HHH000204: Processing PersistenceUnitInfo [name: default]-[INFO]-2024-09-16 16:53:04,658-org.hibernate.jpa.internal.util.LogHelper-main-
+HHH000412: Hibernate ORM core version 6.5.2.Final-[INFO]-2024-09-16 16:53:04,758-org.hibernate.Version-main-
+HHH000026: Second-level cache disabled-[INFO]-2024-09-16 16:53:04,820-org.hibernate.cache.internal.RegionFactoryInitiator-main-
+No LoadTimeWeaver setup: ignoring JPA class transformer-[INFO]-2024-09-16 16:53:05,320-org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-main-
+HHH000038: Composite-id class does not override equals(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 16:53:05,789-org.hibernate.mapping.RootClass-main-
+HHH000039: Composite-id class does not override hashCode(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 16:53:05,789-org.hibernate.mapping.RootClass-main-
+HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-[INFO]-2024-09-16 16:53:06,607-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-main-
+Initialized JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 16:53:06,658-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-main-
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-[WARN]-2024-09-16 16:53:06,976-org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-main-
+Tomcat started on port 9090 (http) with context path '/'-[INFO]-2024-09-16 16:53:07,477-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Started Application in 6.9 seconds (process running for 7.943)-[INFO]-2024-09-16 16:53:07,496-org.springframework.boot.StartupInfoLogger-main-
+ioc container is created-[INFO]-2024-09-16 16:53:07,502-in.priyankait.Application-main-
+start of import details...-[DEBUG]-2024-09-16 16:53:07,503-in.priyankait.service.BookService-main-
+end of import ...-[INFO]-2024-09-16 16:53:07,704-in.priyankait.service.BookService-main-
+end of main(-) method-[DEBUG]-2024-09-16 16:53:07,704-in.priyankait.Application-main-
+App is about to complete..-[TRACE]-2024-09-16 16:53:07,704-in.priyankait.Application-main-
+Application shutdown requested.-[INFO]-2024-09-16 17:29:17,142-org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-RMI TCP Connection(40)-127.0.0.1-
+Closing JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 17:29:17,167-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-RMI TCP Connection(40)-127.0.0.1-
+HikariPool-1 - Shutdown initiated...-[INFO]-2024-09-16 17:29:17,174-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(40)-127.0.0.1-
+HikariPool-1 - Shutdown completed.-[INFO]-2024-09-16 17:29:17,179-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(40)-127.0.0.1-
+Starting Application using Java 17.0.7 with PID 2416 (D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database\target\classes started by HP in D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database)-[INFO]-2024-09-16 17:29:26,668-org.springframework.boot.StartupInfoLogger-main-
+Running with Spring Boot v3.3.0, Spring v6.1.8-[DEBUG]-2024-09-16 17:29:26,672-org.springframework.boot.StartupInfoLogger-main-
+No active profile set, falling back to 1 default profile: "default"-[INFO]-2024-09-16 17:29:26,674-org.springframework.boot.SpringApplication-main-
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.-[INFO]-2024-09-16 17:29:27,743-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.-[INFO]-2024-09-16 17:29:27,814-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Tomcat initialized with port 9090 (http)-[INFO]-2024-09-16 17:29:28,466-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Starting service [Tomcat]-[INFO]-2024-09-16 17:29:28,509-org.apache.juli.logging.DirectJDKLog-main-
+Starting Servlet engine: [Apache Tomcat/10.1.24]-[INFO]-2024-09-16 17:29:28,510-org.apache.juli.logging.DirectJDKLog-main-
+Initializing Spring embedded WebApplicationContext-[INFO]-2024-09-16 17:29:28,605-org.apache.juli.logging.DirectJDKLog-main-
+Root WebApplicationContext: initialization completed in 1840 ms-[INFO]-2024-09-16 17:29:28,606-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-main-
+HikariPool-1 - Starting...-[INFO]-2024-09-16 17:29:28,651-com.zaxxer.hikari.HikariDataSource-main-
+HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=PRIYANKAIT-[INFO]-2024-09-16 17:29:28,890-com.zaxxer.hikari.pool.HikariPool-main-
+HikariPool-1 - Start completed.-[INFO]-2024-09-16 17:29:28,894-com.zaxxer.hikari.HikariDataSource-main-
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'-[INFO]-2024-09-16 17:29:28,911-org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration-main-
+HHH000204: Processing PersistenceUnitInfo [name: default]-[INFO]-2024-09-16 17:29:29,098-org.hibernate.jpa.internal.util.LogHelper-main-
+HHH000412: Hibernate ORM core version 6.5.2.Final-[INFO]-2024-09-16 17:29:29,184-org.hibernate.Version-main-
+HHH000026: Second-level cache disabled-[INFO]-2024-09-16 17:29:29,240-org.hibernate.cache.internal.RegionFactoryInitiator-main-
+No LoadTimeWeaver setup: ignoring JPA class transformer-[INFO]-2024-09-16 17:29:29,649-org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-main-
+HHH000038: Composite-id class does not override equals(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 17:29:30,062-org.hibernate.mapping.RootClass-main-
+HHH000039: Composite-id class does not override hashCode(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 17:29:30,063-org.hibernate.mapping.RootClass-main-
+HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-[INFO]-2024-09-16 17:29:30,800-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-main-
+Initialized JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 17:29:30,858-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-main-
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-[WARN]-2024-09-16 17:29:31,178-org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-main-
+Tomcat started on port 9090 (http) with context path '/'-[INFO]-2024-09-16 17:29:31,667-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Started Application in 5.66 seconds (process running for 6.973)-[INFO]-2024-09-16 17:29:31,683-org.springframework.boot.StartupInfoLogger-main-
+ioc container is created-[INFO]-2024-09-16 17:29:31,688-in.priyankait.Application-main-
+start of import details...-[DEBUG]-2024-09-16 17:29:31,689-in.priyankait.service.BookService-main-
+end of import ...-[INFO]-2024-09-16 17:29:31,837-in.priyankait.service.BookService-main-
+end of main(-) method-[DEBUG]-2024-09-16 17:29:31,838-in.priyankait.Application-main-
+App is about to complete..-[TRACE]-2024-09-16 17:29:31,838-in.priyankait.Application-main-
+Application shutdown requested.-[INFO]-2024-09-16 17:45:20,036-org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-RMI TCP Connection(19)-127.0.0.1-
+Closing JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 17:45:20,060-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-RMI TCP Connection(19)-127.0.0.1-
+HikariPool-1 - Shutdown initiated...-[INFO]-2024-09-16 17:45:20,066-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(19)-127.0.0.1-
+HikariPool-1 - Shutdown completed.-[INFO]-2024-09-16 17:45:20,070-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(19)-127.0.0.1-
+Starting Application using Java 17.0.7 with PID 7388 (D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database\target\classes started by HP in D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database)-[INFO]-2024-09-16 17:45:28,940-org.springframework.boot.StartupInfoLogger-main-
+Running with Spring Boot v3.3.0, Spring v6.1.8-[DEBUG]-2024-09-16 17:45:28,946-org.springframework.boot.StartupInfoLogger-main-
+No active profile set, falling back to 1 default profile: "default"-[INFO]-2024-09-16 17:45:28,948-org.springframework.boot.SpringApplication-main-
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.-[INFO]-2024-09-16 17:45:29,953-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.-[INFO]-2024-09-16 17:45:30,043-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Tomcat initialized with port 9090 (http)-[INFO]-2024-09-16 17:45:30,771-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Starting service [Tomcat]-[INFO]-2024-09-16 17:45:30,796-org.apache.juli.logging.DirectJDKLog-main-
+Starting Servlet engine: [Apache Tomcat/10.1.24]-[INFO]-2024-09-16 17:45:30,796-org.apache.juli.logging.DirectJDKLog-main-
+Initializing Spring embedded WebApplicationContext-[INFO]-2024-09-16 17:45:30,897-org.apache.juli.logging.DirectJDKLog-main-
+Root WebApplicationContext: initialization completed in 1870 ms-[INFO]-2024-09-16 17:45:30,898-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-main-
+HikariPool-1 - Starting...-[INFO]-2024-09-16 17:45:30,959-com.zaxxer.hikari.HikariDataSource-main-
+HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=PRIYANKAIT-[INFO]-2024-09-16 17:45:31,250-com.zaxxer.hikari.pool.HikariPool-main-
+HikariPool-1 - Start completed.-[INFO]-2024-09-16 17:45:31,254-com.zaxxer.hikari.HikariDataSource-main-
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'-[INFO]-2024-09-16 17:45:31,280-org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration-main-
+HHH000204: Processing PersistenceUnitInfo [name: default]-[INFO]-2024-09-16 17:45:31,495-org.hibernate.jpa.internal.util.LogHelper-main-
+HHH000412: Hibernate ORM core version 6.5.2.Final-[INFO]-2024-09-16 17:45:31,621-org.hibernate.Version-main-
+HHH000026: Second-level cache disabled-[INFO]-2024-09-16 17:45:31,733-org.hibernate.cache.internal.RegionFactoryInitiator-main-
+No LoadTimeWeaver setup: ignoring JPA class transformer-[INFO]-2024-09-16 17:45:32,194-org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-main-
+HHH000038: Composite-id class does not override equals(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 17:45:32,681-org.hibernate.mapping.RootClass-main-
+HHH000039: Composite-id class does not override hashCode(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 17:45:32,682-org.hibernate.mapping.RootClass-main-
+HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-[INFO]-2024-09-16 17:45:33,523-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-main-
+Initialized JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 17:45:33,578-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-main-
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-[WARN]-2024-09-16 17:45:33,971-org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-main-
+Tomcat started on port 9090 (http) with context path '/'-[INFO]-2024-09-16 17:45:34,622-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Started Application in 6.325 seconds (process running for 7.645)-[INFO]-2024-09-16 17:45:34,644-org.springframework.boot.StartupInfoLogger-main-
+ioc container is created-[INFO]-2024-09-16 17:45:34,648-in.priyankait.Application-main-
+start of import details...-[DEBUG]-2024-09-16 17:45:34,649-in.priyankait.service.BookService-main-
+end of import ...-[INFO]-2024-09-16 17:45:34,846-in.priyankait.service.BookService-main-
+end of main(-) method-[DEBUG]-2024-09-16 17:45:34,846-in.priyankait.Application-main-
+App is about to complete..-[TRACE]-2024-09-16 17:45:34,847-in.priyankait.Application-main-
+Application shutdown requested.-[INFO]-2024-09-16 17:47:27,492-org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-RMI TCP Connection(5)-127.0.0.1-
+Closing JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 17:47:27,514-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-RMI TCP Connection(5)-127.0.0.1-
+HikariPool-1 - Shutdown initiated...-[INFO]-2024-09-16 17:47:27,520-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(5)-127.0.0.1-
+HikariPool-1 - Shutdown completed.-[INFO]-2024-09-16 17:47:27,524-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(5)-127.0.0.1-
+Starting Application using Java 17.0.7 with PID 6116 (D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database\target\classes started by HP in D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database)-[INFO]-2024-09-16 18:03:51,747-org.springframework.boot.StartupInfoLogger-main-
+Running with Spring Boot v3.3.0, Spring v6.1.8-[DEBUG]-2024-09-16 18:03:51,752-org.springframework.boot.StartupInfoLogger-main-
+No active profile set, falling back to 1 default profile: "default"-[INFO]-2024-09-16 18:03:51,754-org.springframework.boot.SpringApplication-main-
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.-[INFO]-2024-09-16 18:03:52,727-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.-[INFO]-2024-09-16 18:03:52,815-org.springframework.data.repository.config.RepositoryConfigurationDelegate-main-
+Tomcat initialized with port 9090 (http)-[INFO]-2024-09-16 18:03:53,526-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Starting service [Tomcat]-[INFO]-2024-09-16 18:03:53,570-org.apache.juli.logging.DirectJDKLog-main-
+Starting Servlet engine: [Apache Tomcat/10.1.24]-[INFO]-2024-09-16 18:03:53,570-org.apache.juli.logging.DirectJDKLog-main-
+Initializing Spring embedded WebApplicationContext-[INFO]-2024-09-16 18:03:53,671-org.apache.juli.logging.DirectJDKLog-main-
+Root WebApplicationContext: initialization completed in 1839 ms-[INFO]-2024-09-16 18:03:53,671-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-main-
+HikariPool-1 - Starting...-[INFO]-2024-09-16 18:03:53,740-com.zaxxer.hikari.HikariDataSource-main-
+HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=PRIYANKAIT-[INFO]-2024-09-16 18:03:54,027-com.zaxxer.hikari.pool.HikariPool-main-
+HikariPool-1 - Start completed.-[INFO]-2024-09-16 18:03:54,031-com.zaxxer.hikari.HikariDataSource-main-
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'-[INFO]-2024-09-16 18:03:54,053-org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration-main-
+HHH000204: Processing PersistenceUnitInfo [name: default]-[INFO]-2024-09-16 18:03:54,285-org.hibernate.jpa.internal.util.LogHelper-main-
+HHH000412: Hibernate ORM core version 6.5.2.Final-[INFO]-2024-09-16 18:03:54,439-org.hibernate.Version-main-
+HHH000026: Second-level cache disabled-[INFO]-2024-09-16 18:03:54,516-org.hibernate.cache.internal.RegionFactoryInitiator-main-
+No LoadTimeWeaver setup: ignoring JPA class transformer-[INFO]-2024-09-16 18:03:55,055-org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-main-
+HHH000038: Composite-id class does not override equals(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 18:03:55,506-org.hibernate.mapping.RootClass-main-
+HHH000039: Composite-id class does not override hashCode(): in.priyankait.entity.BookPk-[WARN]-2024-09-16 18:03:55,507-org.hibernate.mapping.RootClass-main-
+HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-[INFO]-2024-09-16 18:03:56,352-org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-main-
+Initialized JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 18:03:56,409-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-main-
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-[WARN]-2024-09-16 18:03:56,747-org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-main-
+Tomcat started on port 9090 (http) with context path '/'-[INFO]-2024-09-16 18:03:57,244-org.springframework.boot.web.embedded.tomcat.TomcatWebServer-main-
+Started Application in 6.176 seconds (process running for 7.191)-[INFO]-2024-09-16 18:03:57,263-org.springframework.boot.StartupInfoLogger-main-
+ioc container is created-[INFO]-2024-09-16 18:03:57,268-in.priyankait.Application-main-
+start of import details...-[DEBUG]-2024-09-16 18:03:57,269-in.priyankait.service.BookService-main-
+end of import ...-[INFO]-2024-09-16 18:03:57,469-in.priyankait.service.BookService-main-
+end of main(-) method-[DEBUG]-2024-09-16 18:03:57,470-in.priyankait.Application-main-
+App is about to complete..-[TRACE]-2024-09-16 18:03:57,470-in.priyankait.Application-main-
+Application shutdown requested.-[INFO]-2024-09-16 18:16:52,042-org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-RMI TCP Connection(15)-127.0.0.1-
+Closing JPA EntityManagerFactory for persistence unit 'default'-[INFO]-2024-09-16 18:16:52,069-org.springframework.orm.jpa.AbstractEntityManagerFactoryBean-RMI TCP Connection(15)-127.0.0.1-
+HikariPool-1 - Shutdown initiated...-[INFO]-2024-09-16 18:16:52,076-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(15)-127.0.0.1-
+HikariPool-1 - Shutdown completed.-[INFO]-2024-09-16 18:16:52,079-com.zaxxer.hikari.HikariDataSource-RMI TCP Connection(15)-127.0.0.1-
+2024-09-16T18:16:59.900+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : Starting Application using Java 17.0.7 with PID 10644 (D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database\target\classes started by HP in D:\PRIYANKA SHARMA\springboot\AshokIt\SpringDataJPA\13_Data_Jpa_h2_Database)
+2024-09-16T18:16:59.904+05:30 DEBUG 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-09-16T18:16:59.905+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T18:17:00.949+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T18:17:01.037+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2024-09-16T18:17:01.819+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-09-16T18:17:01.848+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T18:17:01.849+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-09-16T18:17:01.962+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T18:17:01.963+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1967 ms
+2024-09-16T18:17:02.025+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T18:17:02.304+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=PRIYANKAIT
+2024-09-16T18:17:02.308+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T18:17:02.330+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-09-16T18:17:02.591+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T18:17:02.684+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16T18:17:02.742+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T18:17:03.146+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T18:17:03.581+05:30  WARN 10644 --- [13_Data_Jpa_h2_Database] [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): in.priyankait.entity.BookPk
+2024-09-16T18:17:03.581+05:30  WARN 10644 --- [13_Data_Jpa_h2_Database] [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): in.priyankait.entity.BookPk
+2024-09-16T18:17:04.333+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T18:17:04.390+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T18:17:04.719+05:30  WARN 10644 --- [13_Data_Jpa_h2_Database] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T18:17:05.182+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-09-16T18:17:05.201+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : Started Application in 5.959 seconds (process running for 6.928)
+2024-09-16T18:17:05.205+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : ioc container is created
+2024-09-16T18:17:05.207+05:30 DEBUG 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.service.BookService        : start of import details...
+2024-09-16T18:17:05.381+05:30  INFO 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.service.BookService        : end of import ...
+2024-09-16T18:17:05.382+05:30 DEBUG 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : end of main(-) method
+2024-09-16T18:17:05.382+05:30 TRACE 10644 --- [13_Data_Jpa_h2_Database] [main] in.priyankait.Application                : App is about to complete..
